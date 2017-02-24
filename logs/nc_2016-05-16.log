@@ -1,0 +1,39 @@
+2016-05-16 16:16:32,923 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:17:53,166 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:40:38,072 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:41:27,294 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:42:37,704 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:57:56,624 - info: DBHandler.protoype.establishConnection
+2016-05-16 16:58:40,701 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:00:49,002 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:02:51,449 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:02:51,679 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:03:15,825 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:03:16,036 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:03:57,547 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:04:00,889 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:09:22,354 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:09:24,167 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:14:36,626 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:14:37,494 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:18:33,769 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:18:34,034 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:38:51,613 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:38:51,939 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:42:15,802 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:42:17,364 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:42:28,745 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:42:29,049 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:46:18,472 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:46:18,948 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:46:47,669 - info: DBHandler.protoype.establishConnection
+2016-05-16 17:46:48,058 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 17:47:20,930 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-16 17:48:05,265 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-16 19:36:01,048 - info: DBHandler.protoype.establishConnection
+2016-05-16 19:36:01,686 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 19:36:09,340 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-16 20:04:56,799 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-16 20:07:28,298 - info: DBHandler.protoype.establishConnection
+2016-05-16 20:07:30,172 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-16 20:07:41,144 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1

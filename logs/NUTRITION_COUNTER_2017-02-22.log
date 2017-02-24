@@ -1,0 +1,242 @@
+2017-02-22 11:37:05,158 - info: DBHandler.protoype.establishConnection
+2017-02-22 11:37:06,031 - info: DBHandler.prototype.constants
+2017-02-22 11:37:06,532 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 11:45:00,298 - info: DBHandler.prototype.login
+2017-02-22 11:45:00,301 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:46:13,254 - info: DBHandler.prototype.login
+2017-02-22 11:46:13,290 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:48:56,417 - info: DBHandler.prototype.login
+2017-02-22 11:48:56,421 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:50:04,600 - info: DBHandler.protoype.establishConnection
+2017-02-22 11:50:04,866 - info: DBHandler.prototype.constants
+2017-02-22 11:50:05,064 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 11:50:25,233 - info: DBHandler.prototype.login
+2017-02-22 11:50:25,241 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:50:27,291 - info: DBHandler.prototype.getUsers
+2017-02-22 11:50:27,296 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2017-02-22 11:50:27,304 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:50:27,306 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:50:27,306 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:52:39,592 - info: DBHandler.prototype.login
+2017-02-22 11:52:39,596 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:52:41,335 - info: DBHandler.prototype.getUsers
+2017-02-22 11:52:41,340 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2017-02-22 11:52:41,348 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:52:41,349 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:52:41,347 - error: Error in DBHandler.prototype.executeQuery  stack=Error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+    at Query.Sequence._packetToError (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:208:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/try_nutri/db/database.js:377:16)
+    at /home/tft/Desktop/try_nutri/db/database.js:362:14
+    at Ping.onOperationComplete [as _callback] (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/try_nutri/db/database.js:381:20)->at Query.Sequence.end (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)->at Query.ErrorPacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)->at Protocol._parsePacket (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Parser.js:75:12)->at Protocol.write (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/try_nutri/node_modules/mysql/lib/Connection.js:103:28), data=ER_BAD_FIELD_ERROR: Unknown column 'name' in 'field list'
+2017-02-22 11:54:50,231 - info: DBHandler.protoype.establishConnection
+2017-02-22 11:54:50,298 - info: DBHandler.prototype.constants
+2017-02-22 11:54:50,367 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 11:55:07,758 - info: DBHandler.prototype.login
+2017-02-22 11:55:07,762 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:55:09,349 - info: DBHandler.prototype.getUsers
+2017-02-22 11:55:09,353 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 order by userId
+2017-02-22 11:57:00,782 - info: DBHandler.protoype.establishConnection
+2017-02-22 11:57:00,857 - info: DBHandler.prototype.constants
+2017-02-22 11:57:00,918 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 11:57:15,599 - info: DBHandler.prototype.login
+2017-02-22 11:57:15,606 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 11:57:17,617 - info: DBHandler.prototype.getUsers
+2017-02-22 11:57:17,625 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 order by userId
+2017-02-22 12:15:18,333 - info: DBHandler.prototype.login
+2017-02-22 12:15:18,358 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 12:15:20,245 - info: DBHandler.prototype.getUsers
+2017-02-22 12:15:20,247 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 order by userId
+2017-02-22 12:31:50,973 - info: DBHandler.protoype.establishConnection
+2017-02-22 12:31:51,040 - info: DBHandler.prototype.constants
+2017-02-22 12:31:51,121 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 12:32:13,039 - info: DBHandler.prototype.login
+2017-02-22 12:32:13,049 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 12:32:15,501 - info: DBHandler.prototype.getUsers
+2017-02-22 12:32:15,506 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 order by userId
+2017-02-22 12:45:33,948 - info: DBHandler.protoype.establishConnection
+2017-02-22 12:45:34,017 - info: DBHandler.prototype.constants
+2017-02-22 12:45:34,092 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 12:45:55,709 - info: DBHandler.prototype.login
+2017-02-22 12:45:55,713 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 12:45:58,297 - info: DBHandler.prototype.getUsers
+2017-02-22 12:45:58,301 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 order by userId
+2017-02-22 12:53:21,261 - info: DBHandler.protoype.establishConnection
+2017-02-22 12:53:21,327 - info: DBHandler.prototype.constants
+2017-02-22 12:53:21,387 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 12:53:38,928 - info: DBHandler.prototype.login
+2017-02-22 12:53:38,936 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 12:53:40,973 - info: DBHandler.prototype.getUsers
+2017-02-22 12:53:40,981 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 13:30:40,601 - info: DBHandler.protoype.establishConnection
+2017-02-22 13:30:40,726 - info: DBHandler.prototype.constants
+2017-02-22 13:30:40,928 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 13:31:11,270 - info: DBHandler.prototype.login
+2017-02-22 13:31:11,352 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 13:31:20,276 - info: DBHandler.prototype.getUsers
+2017-02-22 13:31:20,279 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 13:32:50,012 - info: DBHandler.protoype.establishConnection
+2017-02-22 13:32:50,121 - info: DBHandler.prototype.constants
+2017-02-22 13:32:50,303 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 13:33:16,692 - info: DBHandler.prototype.login
+2017-02-22 13:33:16,698 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 13:33:19,701 - info: DBHandler.prototype.getUsers
+2017-02-22 13:33:19,706 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 13:36:26,492 - info: DBHandler.protoype.establishConnection
+2017-02-22 13:36:26,602 - info: DBHandler.prototype.constants
+2017-02-22 13:36:26,775 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 13:39:10,616 - info: DBHandler.prototype.login
+2017-02-22 13:39:10,620 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 13:39:14,718 - info: DBHandler.prototype.login
+2017-02-22 13:39:14,720 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 13:39:19,693 - info: DBHandler.prototype.getUsers
+2017-02-22 13:39:19,697 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 13:50:27,490 - info: DBHandler.protoype.establishConnection
+2017-02-22 13:50:27,581 - info: DBHandler.prototype.constants
+2017-02-22 13:50:27,741 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 13:51:03,460 - info: DBHandler.prototype.login
+2017-02-22 13:51:03,466 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 13:51:05,603 - info: DBHandler.prototype.getUsers
+2017-02-22 13:51:05,606 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 14:39:36,495 - info: DBHandler.protoype.establishConnection
+2017-02-22 14:39:36,781 - info: DBHandler.prototype.constants
+2017-02-22 14:39:37,587 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 14:47:07,618 - info: DBHandler.prototype.login
+2017-02-22 14:47:07,747 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 14:47:12,971 - info: DBHandler.prototype.getUsers
+2017-02-22 14:47:12,988 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 21:05:35,264 - info: DBHandler.protoype.establishConnection
+2017-02-22 21:05:35,798 - info: DBHandler.prototype.constants
+2017-02-22 21:05:44,284 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 21:06:31,479 - info: DBHandler.prototype.login
+2017-02-22 21:06:31,694 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 21:06:42,532 - info: DBHandler.prototype.getUsers
+2017-02-22 21:06:42,576 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-22 21:07:16,272 - info: DBHandler.protoype.establishConnection
+2017-02-22 21:07:16,517 - info: DBHandler.prototype.constants
+2017-02-22 21:07:16,875 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-22 21:07:34,581 - info: DBHandler.prototype.login
+2017-02-22 21:07:34,777 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-22 21:07:38,711 - info: DBHandler.prototype.getUsers
+2017-02-22 21:07:38,715 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId

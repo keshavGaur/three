@@ -1,0 +1,95 @@
+2017-02-15 12:38:23,583 - info: DBHandler.protoype.establishConnection
+2017-02-15 12:38:23,921 - info: DBHandler.prototype.constants
+2017-02-15 12:53:12,345 - info: DBHandler.prototype.login
+2017-02-15 12:54:00,605 - info: DBHandler.prototype.login
+2017-02-15 12:55:22,204 - info: DBHandler.prototype.login
+2017-02-15 12:58:02,627 - info: DBHandler.prototype.login
+2017-02-15 12:59:14,059 - info: DBHandler.prototype.login
+2017-02-15 13:01:53,741 - info: DBHandler.prototype.login
+2017-02-15 13:01:56,211 - info: DBHandler.prototype.login
+2017-02-15 13:03:21,333 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:03:21,398 - info: DBHandler.prototype.constants
+2017-02-15 13:03:21,487 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:03:21,491 - error: Error in DBHandler.prototype.executeQuery  stack=Error: Query inactivity timeout
+    at Query.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:67:13)
+    at Query.emit (events.js:166:7)
+    at Query._onTimeout (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:116:8)
+    at Timer.listOnTimeout (timers.js:92:15)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:201:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:379:16)
+    at /home/tft/Desktop/study/nutrition_counter_admin/db/database.js:39:14
+    at Handshake.onConnect (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Pool.js:59:7)
+    at Handshake.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:105:8)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:383:20)->at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)->at /home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:399:18->at Array.forEach (native)->at /home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:398:13->at doNTCallback0 (node.js:417:9)->at process._tickCallback (node.js:346:13), data=Query inactivity timeout
+2017-02-15 13:04:07,581 - info: DBHandler.prototype.login
+2017-02-15 13:14:29,447 - info: DBHandler.prototype.login
+2017-02-15 13:14:38,206 - info: DBHandler.prototype.login
+2017-02-15 13:17:00,761 - info: DBHandler.prototype.login
+2017-02-15 13:18:27,776 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:18:27,971 - info: DBHandler.prototype.constants
+2017-02-15 13:18:28,200 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:18:28,205 - error: Error in DBHandler.prototype.executeQuery  stack=Error: Query inactivity timeout
+    at Query.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:67:13)
+    at Query.emit (events.js:166:7)
+    at Query._onTimeout (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:116:8)
+    at Timer.listOnTimeout (timers.js:92:15)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:201:25)
+    at DBHandler.executeQuery (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:379:16)
+    at /home/tft/Desktop/study/nutrition_counter_admin/db/database.js:39:14
+    at Handshake.onConnect (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Pool.js:59:7)
+    at Handshake.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:105:8)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16), localStack=at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:383:20)->at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)->at /home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:399:18->at Array.forEach (native)->at /home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:398:13->at doNTCallback0 (node.js:417:9)->at process._tickCallback (node.js:346:13), data=Query inactivity timeout
+2017-02-15 13:21:35,694 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:21:35,798 - info: DBHandler.prototype.constants
+2017-02-15 13:21:36,230 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:22:14,788 - info: DBHandler.prototype.login
+2017-02-15 13:22:21,061 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:22:21,231 - info: DBHandler.prototype.constants
+2017-02-15 13:22:21,695 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:22:44,285 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:22:44,396 - info: DBHandler.prototype.constants
+2017-02-15 13:22:44,504 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:23:06,432 - info: DBHandler.prototype.login
+2017-02-15 13:23:06,506 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'gour.kishor@tftus.com' and password = '123456' and roleId = 1
+2017-02-15 13:24:03,860 - info: DBHandler.prototype.login
+2017-02-15 13:24:03,863 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'gshsh@yh.com' and password = '123456' and roleId = 1
+2017-02-15 13:24:37,181 - info: DBHandler.prototype.login
+2017-02-15 13:24:37,183 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-15 13:27:08,177 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:27:08,316 - info: DBHandler.prototype.constants
+2017-02-15 13:27:08,746 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:27:30,842 - info: DBHandler.prototype.login
+2017-02-15 13:27:46,957 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@`12' and roleId = 1
+2017-02-15 13:28:00,555 - info: DBHandler.prototype.login
+2017-02-15 13:29:27,953 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:29:28,064 - info: DBHandler.prototype.constants
+2017-02-15 13:29:28,489 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:36:12,927 - info: DBHandler.protoype.establishConnection
+2017-02-15 13:36:13,045 - info: DBHandler.prototype.constants
+2017-02-15 13:36:13,628 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-15 13:36:42,413 - info: DBHandler.prototype.login
+2017-02-15 13:36:46,487 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-15 13:36:53,821 - info: DBHandler.prototype.getUsers
+2017-02-15 13:36:53,884 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2017-02-15 13:37:01,713 - info: DBHandler.prototype.getIngredients
+2017-02-15 13:37:01,771 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-15 13:37:01,772 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-15 13:37:01,817 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-15 13:37:07,307 - info: DBHandler.prototype.getRawFood
+2017-02-15 13:37:07,313 - info: DBHandler.prototype.executeQuery data=select * from raw_food_master where status=1
+2017-02-15 13:37:07,314 - info: DBHandler.prototype.getRawFoodNutrients
+2017-02-15 13:37:07,327 - info: DBHandler.prototype.executeQuery data=select rfnt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN raw_food_nutrition_trans  rfnt ON  nm.nutrientId = rfnt.nutrientId where nm.status = 1
+2017-02-15 13:40:04,226 - info: DBHandler.prototype.getNutrientsFact
+2017-02-15 13:40:04,231 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1

@@ -1,0 +1,143 @@
+2017-02-21 11:13:15,749 - info: DBHandler.protoype.establishConnection
+2017-02-21 11:13:16,136 - info: DBHandler.prototype.constants
+2017-02-21 11:13:16,800 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-21 11:28:55,770 - info: DBHandler.prototype.login
+2017-02-21 11:28:55,843 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-21 11:29:33,247 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:29:33,250 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:30:30,463 - info: DBHandler.prototype.addNutrientsFact
+2017-02-21 11:30:30,540 - info: DBHandler.prototype.executeQuery data=INSERT into nutrients_master (nutrientName,lowValue,medValue,highValue) values ('dsdd',23,2323,323232)
+2017-02-21 11:30:47,908 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:30:47,913 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:31:58,922 - info: DBHandler.prototype.deleteNutrient
+2017-02-21 11:31:58,995 - info: DBHandler.prototype.executeQuery data=update nutrients_master set status = 0 where nutrientId = '11'
+2017-02-21 11:32:20,209 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:32:20,210 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:33:45,338 - info: DBHandler.prototype.addNutrientsFact
+2017-02-21 11:33:45,376 - info: DBHandler.prototype.executeQuery data=INSERT into nutrients_master (nutrientName,lowValue,medValue,highValue) values ('dfgdsg',1,1,1)
+2017-02-21 11:33:46,725 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:33:46,727 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:33:51,232 - info: DBHandler.prototype.deleteNutrient
+2017-02-21 11:33:51,275 - info: DBHandler.prototype.executeQuery data=update nutrients_master set status = 0 where nutrientId = '12'
+2017-02-21 11:33:54,066 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:33:54,067 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:34:21,490 - info: DBHandler.prototype.addNutrientsFact
+2017-02-21 11:34:21,546 - info: DBHandler.prototype.executeQuery data=INSERT into nutrients_master (nutrientName,lowValue,medValue,highValue) values ('sdfdsf',1,1,1)
+2017-02-21 11:34:28,477 - info: DBHandler.protoype.establishConnection
+2017-02-21 11:34:28,878 - info: DBHandler.prototype.constants
+2017-02-21 11:34:29,548 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-21 11:35:49,469 - info: DBHandler.prototype.login
+2017-02-21 11:35:49,472 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-21 11:36:10,519 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:36:10,528 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:36:17,149 - info: DBHandler.prototype.deleteNutrient
+2017-02-21 11:36:17,186 - info: DBHandler.prototype.executeQuery data=update nutrients_master set status = 0 where nutrientId = '13'
+2017-02-21 11:36:21,462 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:36:21,475 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:36:46,844 - info: DBHandler.prototype.addNutrientsFact
+2017-02-21 11:36:46,882 - info: DBHandler.prototype.executeQuery data=INSERT into nutrients_master (nutrientName,lowValue,medValue,highValue) values ('dfgdsddsa',11,11,2131)
+2017-02-21 11:36:56,255 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:36:56,258 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:37:05,530 - info: DBHandler.prototype.deleteNutrient
+2017-02-21 11:37:05,584 - info: DBHandler.prototype.executeQuery data=update nutrients_master set status = 0 where nutrientId = '14'
+2017-02-21 11:37:26,389 - info: DBHandler.prototype.getNutrientsFact
+2017-02-21 11:37:26,390 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-21 11:39:43,782 - info: DBHandler.protoype.establishConnection
+2017-02-21 11:39:43,854 - info: DBHandler.prototype.constants
+2017-02-21 11:39:43,933 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-21 11:40:20,594 - info: DBHandler.prototype.login
+2017-02-21 11:40:20,599 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-21 11:40:25,412 - info: DBHandler.prototype.getIngredients
+2017-02-21 11:40:25,426 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-21 11:40:25,426 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-21 11:40:25,468 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-21 11:40:48,285 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2017-02-21 11:40:48,287 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('dgfdgdg')
+2017-02-21 11:40:48,288 - info: DBHandler.prototype.doAddNutrients
+2017-02-21 11:40:48,317 - info: DBHandler.prototype.executeQueryTransaction data=insert into raw_food_nutrition_trans(rawFoodId,nutrientId,nutritionValue) values (NULL, 1, '21'), (NULL, 2, '545'), (NULL, 3, '545'), (NULL, 4, '54'), (NULL, 5, '3'), (NULL, 6, '23'), (NULL, 7, '5'), (NULL, 8, '434')
+2017-02-21 11:40:48,809 - info: DBHandler.prototype.getIngredients
+2017-02-21 11:40:48,830 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-21 11:40:48,830 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-21 11:40:48,836 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-21 11:41:00,028 - info: DBHandler.prototype.deleteIngredient
+2017-02-21 11:41:00,067 - info: DBHandler.prototype.executeQuery data=update ingredient_master set status = 0 where ingredientId = '175'
+2017-02-21 11:41:02,315 - info: DBHandler.prototype.getIngredients
+2017-02-21 11:41:02,325 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-21 11:41:02,325 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-21 11:41:02,336 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-21 12:00:41,159 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:01:46,670 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:02:18,422 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:21:28,353 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:26:04,582 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:27:58,927 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:33:10,173 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:36:53,937 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:45:57,526 - info: DBHandler.protoype.establishConnection
+2017-02-21 12:50:58,411 - info: DBHandler.protoype.establishConnection
+2017-02-21 13:13:06,479 - info: DBHandler.protoype.establishConnection
+2017-02-21 13:38:22,322 - info: DBHandler.protoype.establishConnection
+2017-02-21 13:48:10,255 - info: DBHandler.protoype.establishConnection
+2017-02-21 13:55:01,846 - info: DBHandler.protoype.establishConnection
+2017-02-21 14:22:41,575 - info: DBHandler.protoype.establishConnection
+2017-02-21 14:24:33,185 - info: DBHandler.protoype.establishConnection
+2017-02-21 14:24:33,246 - info: DBHandler.prototype.constants
+2017-02-21 14:24:33,313 - info: DBHandler.prototype.executeQuery data=select * from user_master
+2017-02-21 14:24:54,989 - info: DBHandler.protoype.establishConnection
+2017-02-21 14:24:55,055 - info: DBHandler.prototype.constants
+2017-02-21 14:24:55,123 - info: DBHandler.prototype.executeQuery data=select * from user_master
+2017-02-21 17:52:45,676 - info: DBHandler.protoype.establishConnection
+2017-02-21 17:52:46,104 - info: DBHandler.prototype.constants
+2017-02-21 17:52:47,786 - info: DBHandler.prototype.executeQuery data=select * from user_master
+2017-02-21 17:53:31,586 - info: DBHandler.protoype.establishConnection
+2017-02-21 17:53:31,905 - info: DBHandler.prototype.constants
+2017-02-21 17:53:32,446 - info: DBHandler.prototype.executeQuery data=select * from user_master;
+2017-02-21 17:56:34,210 - info: DBHandler.protoype.establishConnection
+2017-02-21 17:56:34,316 - info: DBHandler.prototype.constants
+2017-02-21 17:56:34,544 - info: DBHandler.prototype.executeQuery data=select * from user_master;
+2017-02-21 17:58:20,912 - info: DBHandler.protoype.establishConnection
+2017-02-21 17:58:21,138 - info: DBHandler.prototype.constants
+2017-02-21 17:58:21,494 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 17:59:33,107 - info: DBHandler.protoype.establishConnection
+2017-02-21 17:59:33,231 - info: DBHandler.prototype.constants
+2017-02-21 17:59:33,472 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:00:04,197 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:00:04,296 - info: DBHandler.prototype.constants
+2017-02-21 18:00:04,521 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:05:22,754 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:05:22,910 - info: DBHandler.prototype.constants
+2017-02-21 18:05:23,237 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:09:46,370 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:09:46,481 - info: DBHandler.prototype.constants
+2017-02-21 18:09:46,782 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:10:19,841 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:10:19,949 - info: DBHandler.prototype.constants
+2017-02-21 18:10:20,191 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:10:37,245 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:10:37,339 - info: DBHandler.prototype.constants
+2017-02-21 18:10:40,691 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 18:11:58,233 - info: DBHandler.protoype.establishConnection
+2017-02-21 18:11:58,335 - info: DBHandler.prototype.constants
+2017-02-21 18:12:07,646 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 20:01:02,897 - info: DBHandler.protoype.establishConnection
+2017-02-21 20:01:02,964 - info: DBHandler.prototype.constants
+2017-02-21 20:01:05,572 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 20:07:18,172 - info: DBHandler.protoype.establishConnection
+2017-02-21 20:07:18,264 - info: DBHandler.prototype.constants
+2017-02-21 20:11:35,529 - info: DBHandler.protoype.establishConnection
+2017-02-21 20:11:35,661 - info: DBHandler.prototype.constants
+2017-02-21 20:11:45,018 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 20:13:57,025 - info: DBHandler.protoype.establishConnection
+2017-02-21 20:13:57,092 - info: DBHandler.prototype.constants
+2017-02-21 20:13:57,231 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 20:57:18,708 - info: DBHandler.protoype.establishConnection
+2017-02-21 20:57:19,350 - info: DBHandler.prototype.constants
+2017-02-21 20:57:20,314 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 21:04:47,544 - info: DBHandler.protoype.establishConnection
+2017-02-21 21:04:47,637 - info: DBHandler.prototype.constants
+2017-02-21 21:04:47,941 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 21:07:47,387 - info: DBHandler.protoype.establishConnection
+2017-02-21 21:07:47,493 - info: DBHandler.prototype.constants
+2017-02-21 21:07:47,896 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-21 21:08:06,932 - info: DBHandler.prototype.login
+2017-02-21 21:08:06,970 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1

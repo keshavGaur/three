@@ -1,0 +1,94 @@
+<% include common/top.ejs %>
+<% var status = data.data.status;
+var rawFood = data.data;
+%>
+<div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <% include common/left-sidebar.ejs %>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+        <h1 class="page-header">Raw Food</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-success" style="display:none">
+                    <strong>Success!</strong> Raw Food added successfully..
+                </div>
+                <form role="form" class="form-inline addRawFoodFrm pull-left" method="post">
+                    <div class="form-group" >
+                        <label for="rawFoodName">Name</label>
+                        <input type="text" class="form-control" name="rawFoodName" required>
+                    </div>
+                    <%
+                    var nutrients = rawFood[0].nutrients;
+                    for(var i = 0 ;i < nutrients.length ; i++){ %>
+                    <div class="form-group">
+                        <label for="<%=nutrients[i].nutrientName%>"><%=nutrients[i].nutrientName%></label>
+                        <input type="number" class="form-control" name="<%=nutrients[i].nutrientId%>" required>
+                    </div>
+                    <%
+                    }
+                    %>
+                    <input type="submit" name = "addBtn" value="Add"  class="btn-outline pull-right">
+                </form>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <%  var nutrients = rawFood[0].nutrients;
+                    for(var i = 0 ;i < nutrients.length ; i++){ %>
+                    <th id = <%=nutrients[i].nutrientId%> ><%=nutrients[i].nutrientName%></th>
+                    <%
+                    }
+                    %>
+                </tr>
+                </thead>
+                <tbody>
+                <% if(rawFood.length >0){
+                for(var i = 0 ;i<rawFood.length ; i++){ %>
+                <tr>
+                    <td width="10%"><%=rawFood[i].rawFoodId%></td>
+                    <td width="25%" id="rawFoodName"><%=rawFood[i].rawFoodName%></td>
+                    <% var nutrients = rawFood[i].nutrients;
+                    if(nutrients.length >0){
+                    for(var j = 0 ;j <nutrients.length; j++){ %>
+                    <td width="10%" id="<%=nutrients[j].nutrientId%>"><%=nutrients[j].nutritionValue%></td>
+                    <%} %>
+
+                    <%    } else{ %>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <td width="10%"></td>
+                    <%} %>
+
+                    <td width="10%"><div class="pull-right"><a href="#" class="editRawFood">Edit</a></div></td>
+                    <td width="10%"><div class="pull-right"><a href="#" onclick="deleteRawFood(<%=rawFood[i].rawFoodId%>)">Delete</a></div></td>
+                </tr>
+                <%} %>
+
+                <%} else{%>
+                <tr>
+                    <td colspan="8">No data found</td>
+                </tr>
+                <%}%>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-2 "></div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+            <% include common/bottom.ejs %>
+        </div>
+
+    </div>
+</div>

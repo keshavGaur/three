@@ -1,0 +1,540 @@
+2016-05-19 11:36:57,886 - info: DBHandler.protoype.establishConnection
+2016-05-19 11:36:59,274 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 11:37:09,698 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 11:37:11,620 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:37:11,742 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:39:29,591 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:39:29,596 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:41:41,713 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:41:41,718 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:41:43,693 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:41:43,697 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:42:22,638 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:42:22,643 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:45:40,299 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:45:40,306 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:45:43,045 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:45:43,050 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:45:46,417 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:45:46,423 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:45:48,012 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:45:48,017 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 11:46:00,501 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 11:46:00,511 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 12:03:36,820 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 12:03:36,824 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 12:05:22,788 - info: DBHandler.protoype.establishConnection
+2016-05-19 12:05:24,536 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 12:05:33,279 - info: DBHandler.protoype.establishConnection
+2016-05-19 12:05:33,597 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 12:05:35,722 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 12:05:37,831 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 12:05:37,835 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 12:05:48,063 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 12:05:48,074 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:38:20,895 - info: DBHandler.protoype.establishConnection
+2016-05-19 13:38:21,666 - info: DBHandler.prototype.constants
+2016-05-19 13:38:22,915 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 13:38:31,606 - info: DBHandler.prototype.login
+2016-05-19 13:38:31,704 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 13:38:34,362 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:38:34,375 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:38:34,376 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:38:34,392 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:39:05,059 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:39:05,077 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:39:05,077 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:39:05,085 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:39:30,610 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:39:30,674 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:39:30,674 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:39:30,692 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:39:51,197 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:39:51,348 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:39:51,348 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:39:51,358 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:41:16,494 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:41:16,516 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:41:16,517 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:41:16,527 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:41:18,140 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:41:18,169 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:41:18,169 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:41:18,175 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:41:19,725 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:41:19,739 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:41:19,739 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:41:19,758 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:41:46,733 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:41:46,755 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:41:46,756 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:41:46,773 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:42:06,919 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:42:06,991 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:42:06,991 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:42:07,026 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:43:42,095 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:43:42,144 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:43:42,144 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:43:42,174 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:43:46,357 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:43:46,394 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:43:46,394 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:43:46,422 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:43:49,256 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:43:49,269 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:43:49,269 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:43:49,274 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:47:45,392 - info: DBHandler.protoype.establishConnection
+2016-05-19 13:47:45,667 - info: DBHandler.prototype.constants
+2016-05-19 13:47:45,948 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 13:47:54,160 - info: DBHandler.prototype.login
+2016-05-19 13:47:54,171 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 13:47:55,755 - info: DBHandler.prototype.getIngredients
+2016-05-19 13:47:55,768 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 13:47:55,768 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 13:47:55,772 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 13:55:21,617 - info: DBHandler.protoype.establishConnection
+2016-05-19 13:55:22,374 - info: DBHandler.prototype.constants
+2016-05-19 13:55:23,627 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:02:04,693 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:02:06,399 - info: DBHandler.prototype.constants
+2016-05-19 15:02:10,047 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:04:56,618 - info: DBHandler.prototype.login
+2016-05-19 15:04:57,040 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:04:59,172 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:04:59,337 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:04:59,337 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:04:59,557 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:06:37,461 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:06:37,491 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:06:37,491 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:06:37,497 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:15:25,089 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:15:29,479 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:15:29,480 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:15:29,509 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:17:59,038 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:17:59,069 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:17:59,069 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:17:59,076 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:20:11,567 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:20:11,599 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:20:11,599 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:20:11,608 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:20:14,548 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:20:14,568 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:20:14,568 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:20:14,599 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:20:24,317 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:20:24,349 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:20:24,349 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:20:24,365 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:20:27,948 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:20:28,008 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:20:28,008 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:20:28,013 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:20:35,165 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:20:35,215 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:20:35,215 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:20:35,244 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:22:25,274 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:22:27,845 - info: DBHandler.prototype.constants
+2016-05-19 15:22:31,543 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:23:02,345 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:23:02,530 - info: DBHandler.prototype.constants
+2016-05-19 15:23:02,706 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:24:00,221 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:24:00,419 - info: DBHandler.prototype.constants
+2016-05-19 15:24:00,539 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:24:33,792 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:24:33,982 - info: DBHandler.prototype.constants
+2016-05-19 15:24:34,114 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:25:38,728 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:25:38,924 - info: DBHandler.prototype.constants
+2016-05-19 15:25:39,043 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:25:40,902 - info: DBHandler.prototype.login
+2016-05-19 15:25:40,930 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:25:42,747 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:25:42,768 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:25:42,769 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:25:42,776 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:28:27,560 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:28:27,820 - info: DBHandler.prototype.constants
+2016-05-19 15:28:27,960 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:28:31,692 - info: DBHandler.prototype.login
+2016-05-19 15:28:31,701 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:28:33,590 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:28:33,603 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:28:33,604 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:28:33,630 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:29:09,578 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:29:09,604 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:31:55,538 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:31:55,817 - info: DBHandler.prototype.constants
+2016-05-19 15:31:55,953 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:32:03,785 - info: DBHandler.prototype.login
+2016-05-19 15:32:03,795 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:32:05,848 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:32:05,862 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:32:05,863 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:32:05,867 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:33:00,041 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:33:00,324 - info: DBHandler.prototype.constants
+2016-05-19 15:33:00,493 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:33:04,630 - info: DBHandler.prototype.login
+2016-05-19 15:33:04,640 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:33:06,394 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:33:06,406 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:33:06,407 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:33:06,410 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:33:24,249 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:33:24,253 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:34:07,389 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:34:07,402 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:34:07,403 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:34:07,425 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:34:25,845 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:34:25,876 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:36:08,575 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:36:08,594 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:37:23,276 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:37:23,984 - info: DBHandler.prototype.constants
+2016-05-19 15:37:24,834 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:37:24,560 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:37:24,778 - info: DBHandler.prototype.constants
+2016-05-19 15:37:24,960 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:37:33,315 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:37:33,495 - info: DBHandler.prototype.constants
+2016-05-19 15:37:33,605 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:37:42,256 - info: DBHandler.prototype.login
+2016-05-19 15:37:42,267 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:37:43,802 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:37:43,818 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:37:43,818 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:37:43,823 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:37:58,324 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:37:58,328 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:39:44,171 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:39:44,178 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:40:08,319 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:40:08,540 - info: DBHandler.prototype.constants
+2016-05-19 15:40:08,680 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:40:13,050 - info: DBHandler.prototype.login
+2016-05-19 15:40:13,061 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:40:14,994 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:40:15,007 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:40:15,007 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:40:15,011 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:40:27,555 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:40:27,561 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:41:15,686 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:41:15,952 - info: DBHandler.prototype.constants
+2016-05-19 15:41:16,092 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:41:20,458 - info: DBHandler.prototype.login
+2016-05-19 15:41:20,464 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 15:41:21,754 - info: DBHandler.prototype.getIngredients
+2016-05-19 15:41:21,767 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 15:41:21,767 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 15:41:21,771 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 15:41:35,798 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:41:35,802 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:41:35,803 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 15:41:35,912 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master  set (`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL, `Fat` = NULL, `Protein` = NULL, `Fibre` = NULL, `Glycemic_index` = NULL, `ingredientName` = NULL)
+2016-05-19 15:41:35,913 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL,' at line 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:142:16)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:84:14)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:145:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL,' at line 1
+2016-05-19 15:42:15,120 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:42:15,133 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:42:15,134 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 15:42:15,142 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master  set (`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL, `Fat` = NULL, `Protein` = NULL, `Fibre` = NULL, `Glycemic_index` = NULL, `ingredientName` = NULL)
+2016-05-19 15:42:15,143 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL,' at line 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:142:16)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:84:14)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:145:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = NULL, `Carbohydrates` = NULL, `Potassium` = NULL, `Calories` = NULL,' at line 1
+2016-05-19 15:42:23,412 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:42:29,483 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:48:50,494 - info: DBHandler.protoype.establishConnection
+2016-05-19 15:48:52,355 - info: DBHandler.prototype.constants
+2016-05-19 15:48:53,543 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 15:49:00,752 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:49:00,760 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:49:00,760 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 15:49:00,768 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master  set (`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fat` = '2', `Protein` = '2', `Fibre` = '2', `Glycemic_index` = '2', `ingredientName` = NULL)
+2016-05-19 15:49:00,770 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fa' at line 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:142:16)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:84:14)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:145:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fa' at line 1
+2016-05-19 15:49:21,466 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:49:21,477 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 15:49:21,477 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 15:49:21,484 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master  set (`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fat` = '2', `Protein` = '2', `Fibre` = '2', `Glycemic_index` = '2', `ingredientName` = NULL)
+2016-05-19 15:49:21,485 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fa' at line 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:142:16)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:84:14)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:145:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(`Sodium` = '3', `Carbohydrates` = '3', `Potassium` = '2', `Calories` = '2', `Fa' at line 1
+2016-05-19 15:49:33,451 - info: DBHandler.prototype.getNutrients
+2016-05-19 15:49:37,527 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:08:19,175 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:08:19,507 - info: DBHandler.prototype.constants
+2016-05-19 16:08:19,783 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:08:26,929 - info: DBHandler.prototype.login
+2016-05-19 16:08:26,938 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:08:28,391 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:08:28,403 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:08:28,404 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:08:28,407 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:08:42,251 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:08:42,255 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:08:42,255 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:08:42,467 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:08:42,467 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:08:42,471 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values()
+2016-05-19 16:08:42,473 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:147:16)
+    at DBHandler.doAddNutrients (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:105:10)
+    at DBHandler.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:87:17)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:153:50)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:150:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+2016-05-19 16:09:17,867 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:09:17,872 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:09:17,872 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:09:18,027 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:09:18,028 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:09:18,030 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values()
+2016-05-19 16:09:18,031 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:147:16)
+    at DBHandler.doAddNutrients (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:105:10)
+    at DBHandler.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:87:17)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:153:50)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:150:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+2016-05-19 16:09:52,989 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:09:53,355 - info: DBHandler.prototype.constants
+2016-05-19 16:09:53,738 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:09:57,202 - info: DBHandler.prototype.login
+2016-05-19 16:09:57,209 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:09:59,151 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:09:59,164 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:09:59,165 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:09:59,168 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:10:33,453 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:10:33,457 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:10:33,458 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:10:33,491 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:10:33,492 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:10:33,535 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values((170, 1, '2'), (170, 2, '-2'), (170, 3, '2'), (170, 4, '-2'), (170, 5, '2'), (170, 6, '2'), (170, 7, '2'), (170, 8, '2'))
+2016-05-19 16:10:33,536 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+    at Query.Sequence._packetToError (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:147:16)
+    at DBHandler.doAddNutrients (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:105:10)
+    at DBHandler.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:87:17)
+    at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:153:50)
+    at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.OkPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:78:10)
+    at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23), localStack=at Query._callback (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\db\database.js:150:20)->at Query.Sequence.end (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)->at Query.ErrorPacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\sequences\Query.js:94:8)->at Protocol._parsePacket (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:280:23)->at Parser.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Parser.js:73:12)->at Protocol.write (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\protocol\Protocol.js:39:16)->at Socket.<anonymous> (c:\Users\kaur.jasmeen\WebstormProjects\nutrition_counter_admin\node_modules\mysql\lib\Connection.js:96:28), data=ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+2016-05-19 16:11:25,762 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:11:26,020 - info: DBHandler.prototype.constants
+2016-05-19 16:11:26,170 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:11:39,566 - info: DBHandler.prototype.login
+2016-05-19 16:11:39,574 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:11:41,954 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:11:41,968 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:11:41,968 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:11:41,972 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:12:03,036 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:12:03,041 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:12:19,159 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:12:19,180 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:12:22,246 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:12:37,365 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values (171, 1, '3'), (171, 2, '3'), (171, 3, '2'), (171, 4, '3'), (171, 5, '3'), (171, 6, '-2'), (171, 7, '2'), (171, 8, '3')
+2016-05-19 16:14:12,520 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:14:12,824 - info: DBHandler.prototype.constants
+2016-05-19 16:14:13,004 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:14:16,083 - info: DBHandler.prototype.login
+2016-05-19 16:14:16,088 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:14:17,716 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:14:17,728 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:14:17,729 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:14:17,748 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:15:09,368 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:15:09,379 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:15:09,381 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:15:09,393 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:15:09,394 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:15:09,640 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values (172, 1, '2'), (172, 2, '2'), (172, 3, '2'), (172, 4, '-2'), (172, 5, '2'), (172, 6, '2'), (172, 7, '-2'), (172, 8, '-3')
+2016-05-19 16:15:43,070 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:15:43,385 - info: DBHandler.prototype.constants
+2016-05-19 16:15:43,506 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:15:52,046 - info: DBHandler.prototype.login
+2016-05-19 16:15:52,054 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:15:53,656 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:15:53,670 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:15:53,671 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:15:53,676 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:16:07,012 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:16:07,016 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:16:07,017 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:16:07,052 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2016-05-19 16:16:07,053 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:16:07,138 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values (173, 1, '3'), (173, 2, '-2'), (173, 3, '2'), (173, 4, '-2'), (173, 5, '-2'), (173, 6, '-2'), (173, 7, '2'), (173, 8, '2')
+2016-05-19 16:16:07,632 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:16:07,649 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:16:07,649 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:16:07,673 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:17:34,284 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:17:34,426 - info: DBHandler.prototype.constants
+2016-05-19 16:17:34,540 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:21:23,935 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:21:24,893 - info: DBHandler.prototype.constants
+2016-05-19 16:21:26,548 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:21:50,031 - info: DBHandler.prototype.login
+2016-05-19 16:21:50,060 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:21:52,294 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:21:52,419 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master order by ingredientName
+2016-05-19 16:21:52,420 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:21:52,432 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:22:50,798 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:22:50,818 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master order by ingredientName
+2016-05-19 16:22:50,818 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:22:50,838 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:22:52,957 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:22:52,980 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master order by ingredientName
+2016-05-19 16:22:52,981 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:22:52,994 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:23:59,198 - info: DBHandler.protoype.establishConnection
+2016-05-19 16:23:59,466 - info: DBHandler.prototype.constants
+2016-05-19 16:23:59,664 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-19 16:24:04,298 - info: DBHandler.prototype.login
+2016-05-19 16:24:04,307 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-19 16:24:06,080 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:24:06,094 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:24:06,094 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:24:06,099 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId
+2016-05-19 16:24:30,382 - info: DBHandler.prototype.getNutrients
+2016-05-19 16:24:30,388 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName from nutrients_master 
+2016-05-19 16:24:44,495 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2016-05-19 16:24:44,513 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('test')
+2016-05-19 16:24:46,539 - info: DBHandler.prototype.doAddNutrients
+2016-05-19 16:24:48,659 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_nutrition_trans(ingredientId,nutrientId,nutritionValue) values (174, 1, '3'), (174, 2, '-3'), (174, 3, '-2'), (174, 4, '3'), (174, 5, '-2'), (174, 6, '-2'), (174, 7, '2'), (174, 8, '-3')
+2016-05-19 16:24:55,254 - info: DBHandler.prototype.getIngredients
+2016-05-19 16:24:55,276 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master
+2016-05-19 16:24:55,277 - info: DBHandler.prototype.getIngredientNutrients
+2016-05-19 16:24:55,287 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId

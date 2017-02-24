@@ -1,0 +1,8 @@
+2016-05-17 15:19:06,009 - info: DBHandler.protoype.establishConnection
+2016-05-17 15:19:08,184 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-17 15:52:33,849 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-17 16:11:39,373 - info: DBHandler.protoype.establishConnection
+2016-05-17 16:11:42,435 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-05-17 16:11:49,171 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-05-17 16:12:42,847 - info: DBHandler.protoype.establishConnection
+2016-05-17 16:12:43,865 - info: DBHandler.prototype.executeQuery data=select * from constants

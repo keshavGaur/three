@@ -1,0 +1,86 @@
+<% include common/top.ejs %>
+<%
+var status = data.data.status;
+var nutrients = data.data;
+%>
+<div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <% include common/left-sidebar.ejs %>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+        <h1 class="page-header">Nutrients</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <form role="form" class="form-inline addNutrientFrm pull-left" method="post">
+                        <div class="form-group">
+                            <label for="nutrientName">Name</label>
+                            <input type="text" class="form-control" name="nutrientName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lowValue">Low</label>
+                            <input type="number" class="form-control" name="low" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medValue">Medium</label>
+                            <input type="number" class="form-control" name="med" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="highValue">High</label>
+                            <input type="number" class="form-control" name="high" required>
+                        </div>
+                        <input type="submit" name="addBtn"value="Add" class="btn-outline pull-right" style="width: 100px;">
+                    </form>
+                 <div>
+                <div class="row">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nutrient Name</th>
+                                <th>Low Value</th>
+                                <th>Medium Value</th>
+                                <th>High Value</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <% for(var i = 0;i < nutrients.length;i++){ %>
+                            <tr>
+                                <td width="10%"><%= nutrients[i].nutrientId %></td>
+                                <td width="20%" id = "nutrientName"><%= nutrients[i].nutrientName %></td>
+                                <td id="low" width="10%"><%= nutrients[i].lowValue %></td>
+                                <td id="med" width="10%"><%= nutrients[i].medValue %></td>
+                                <td id="high" width="10%"><%= nutrients[i].highValue %></td>
+                                <td width="10%">
+                                    <div class="pull-right"><a href="#" class="editNutrient"><b>Edit</b></a></div>
+                                </td>
+                                <td width="10%">
+                                    <div class="pull-right"><a href="#" onclick="deleteNutrient(<%= nutrients[i].nutrientId %>)"><b>Delete</b></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <% } %>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-sm-3 col-md-2 "></div>
+                    <div class=" ">
+                        <% include common/bottom.ejs %>
+                    </div>
+
+                </div>
+    </div>
+</div>
+        </div>
+    </div>

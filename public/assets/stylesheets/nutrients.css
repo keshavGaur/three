@@ -1,0 +1,15 @@
+input[type=submit]{
+    margin-left: 20px;
+}
+form{
+    margin-bottom: 38px;
+}
+@media (max-width: 780px) {
+    form input[type=text] {
+        width: 100% !important;
+    }
+
+    form input[type=number] {
+        width: 100% !important;
+    }
+}

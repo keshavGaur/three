@@ -1,0 +1,5 @@
+2017-02-17 15:53:06,103 - info: DBHandler.protoype.establishConnection
+2017-02-17 15:53:06,515 - info: DBHandler.prototype.constants
+2017-02-17 15:53:07,119 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-17 15:55:26,905 - info: DBHandler.prototype.login
+2017-02-17 15:55:27,022 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1

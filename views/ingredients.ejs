@@ -1,0 +1,94 @@
+<% include common/top.ejs %>
+<% var status = data.data.status;
+   var ingredient = data.data;
+%>
+<div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <% include common/left-sidebar.ejs %>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+        <h1 class="page-header">Ingredients</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-success" style="display:none">
+                    <strong>Success!</strong> Ingredient added successfully..
+                </div>
+                <form role="form" class="form-inline addIngredientFrm pull-left" method="post">
+                    <div class="form-group" >
+                        <label for="ingrdientName">Name</label>
+                        <input type="text" class="form-control" name="ingredientName" required>
+                    </div>
+                    <%
+                        var nutrients = ingredient[0].nutrients;
+                        for(var i = 0 ;i < nutrients.length ; i++){ %>
+                            <div class="form-group">
+                                <label for="<%=nutrients[i].nutrientName%>"><%=nutrients[i].nutrientName%></label>
+                                <input type="number" class="form-control" name="<%=nutrients[i].nutrientId%>" required>
+                            </div>
+                        <%
+                        }
+                    %>
+             <input type="submit" name = "addBtn" value="Add"  class="btn-outline pull-right">
+                </form>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <%  var nutrients = ingredient[0].nutrients;
+                        for(var i = 0 ;i < nutrients.length ; i++){ %>
+                            <th id = <%=nutrients[i].nutrientId%> ><%=nutrients[i].nutrientName%></th>
+                        <%
+                        }
+                    %>
+                </tr>
+                </thead>
+                <tbody>
+                <% if(ingredient.length >0){
+                        for(var i = 0 ;i<ingredient.length ; i++){ %>
+                            <tr>
+                                <td width="10%"><%=ingredient[i].ingredientId%></td>
+                                <td width="25%" id="ingredientName"><%=ingredient[i].ingredientName%></td>
+                                <% var nutrients = ingredient[i].nutrients;
+                                    if(nutrients.length >0){
+                                   for(var j = 0 ;j <nutrients.length; j++){ %>
+                                        <td width="10%" id="<%=nutrients[j].nutrientId%>"><%=nutrients[j].nutritionValue%></td>
+                                    <%} %>
+
+                                <%    } else{ %>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <td width="10%"></td>
+                                <%} %>
+
+                                <td width="10%"><div class="pull-right"><a href="#" class="editIngred">Edit</a></div></td>
+                                <td width="10%"><div class="pull-right"><a href="#" onclick="deleteIngredient(<%=ingredient[i].ingredientId%>)">Delete</a></div></td>
+                            </tr>
+                        <%} %>
+
+                <%} else{%>
+                    <tr>
+                        <td colspan="8">No data found</td>
+                    </tr>
+                <%}%>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-2 "></div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+            <% include common/bottom.ejs %>
+        </div>
+
+    </div>
+</div>

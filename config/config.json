@@ -1,0 +1,11 @@
+{
+  "DEV": {
+    "log_level": "debug",
+    "db": {
+      "host": "localhost",
+      "username": "root",
+      "password": "tftus@123",
+      "database": "medi_count"
+    }
+  }
+}

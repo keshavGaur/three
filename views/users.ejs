@@ -1,0 +1,54 @@
+<% include common/top.ejs %>
+<%
+    var status = data.data.status;
+    var users = data.data;
+%>
+<div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <% include common/left-sidebar.ejs %>
+    </div>
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+            <h1 class="page-header">Users</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>EmailId</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <%
+                            if(users.length > 0){
+                                for(var i=0;i<users.length;i++){
+                            %>
+                            <tr>
+                                <td><%=users[i].userId%></td>
+                                <td><%=users[i].userName%></td>
+                                <td><%=users[i].emailId%></td>
+                                <td ><div class="pull-right"><a href="#" onclick="deleteUser(<%=users[i].userId%>)"><b>Delete</b></a></div></td>
+                            </tr>
+                            <%
+                                }
+                            } else{%>
+                            <tr>
+                                <td colspan="6">No data found</td>
+                            </tr>
+                            <%}%>
+
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-sm-3 col-md-2 "></div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main ">
+            <% include common/bottom.ejs %>
+        </div>
+</div>

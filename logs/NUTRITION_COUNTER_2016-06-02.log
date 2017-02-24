@@ -1,0 +1,13 @@
+2016-06-02 13:19:23,902 - info: DBHandler.protoype.establishConnection
+2016-06-02 13:19:27,144 - info: DBHandler.prototype.constants
+2016-06-02 13:19:32,201 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-06-02 13:23:34,141 - info: DBHandler.prototype.login
+2016-06-02 13:23:34,534 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-06-02 13:23:36,459 - info: DBHandler.prototype.getIngredients
+2016-06-02 13:23:36,529 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2016-06-02 13:23:36,529 - info: DBHandler.prototype.getIngredientNutrients
+2016-06-02 13:23:36,627 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2016-06-02 13:23:51,916 - info: DBHandler.prototype.getRawFood
+2016-06-02 13:23:51,958 - info: DBHandler.prototype.executeQuery data=select * from raw_food_master where status=1
+2016-06-02 13:23:51,958 - info: DBHandler.prototype.getRawFoodNutrients
+2016-06-02 13:23:51,985 - info: DBHandler.prototype.executeQuery data=select rfnt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN raw_food_nutrition_trans  rfnt ON  nm.nutrientId = rfnt.nutrientId where nm.status = 1

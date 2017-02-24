@@ -1,0 +1,49 @@
+2016-06-14 16:35:05,614 - info: DBHandler.protoype.establishConnection
+2016-06-14 16:35:07,380 - info: DBHandler.prototype.constants
+2016-06-14 16:35:09,021 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-06-14 16:35:26,974 - info: DBHandler.prototype.login
+2016-06-14 16:35:27,099 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-06-14 16:35:54,276 - info: DBHandler.prototype.getUsers
+2016-06-14 16:35:54,280 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 order by createdOn
+2016-06-14 16:48:14,556 - info: DBHandler.prototype.getUsers
+2016-06-14 16:48:14,580 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 order by createdOn
+2016-06-14 16:48:17,805 - info: DBHandler.prototype.getUsers
+2016-06-14 16:48:17,809 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 order by createdOn
+2016-06-14 16:48:34,128 - info: DBHandler.protoype.establishConnection
+2016-06-14 16:48:34,631 - info: DBHandler.prototype.constants
+2016-06-14 16:48:35,120 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-06-14 16:48:37,492 - info: DBHandler.prototype.login
+2016-06-14 16:48:37,494 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-06-14 16:48:39,373 - info: DBHandler.prototype.getUsers
+2016-06-14 16:48:39,377 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:48:41,030 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:48:41,067 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId=NULL
+2016-06-14 16:48:41,488 - info: DBHandler.prototype.getUsers
+2016-06-14 16:48:41,523 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:48:44,534 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:48:44,536 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId=NULL
+2016-06-14 16:48:44,989 - info: DBHandler.prototype.getUsers
+2016-06-14 16:48:44,993 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:49:58,863 - info: DBHandler.protoype.establishConnection
+2016-06-14 16:49:59,456 - info: DBHandler.prototype.constants
+2016-06-14 16:49:59,967 - info: DBHandler.prototype.executeQuery data=select * from constants
+2016-06-14 16:50:02,259 - info: DBHandler.prototype.login
+2016-06-14 16:50:02,266 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'admin' and password = 'admin' and roleId = 1
+2016-06-14 16:50:04,231 - info: DBHandler.prototype.getUsers
+2016-06-14 16:50:04,237 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:50:08,243 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:50:08,432 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId='6'
+2016-06-14 16:50:08,807 - info: DBHandler.prototype.getUsers
+2016-06-14 16:50:08,825 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:50:10,716 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:50:10,756 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId='7'
+2016-06-14 16:50:11,196 - info: DBHandler.prototype.getUsers
+2016-06-14 16:50:11,201 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:50:12,784 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:50:12,891 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId='8'
+2016-06-14 16:50:13,293 - info: DBHandler.prototype.getUsers
+2016-06-14 16:50:13,299 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2016-06-14 16:50:16,232 - info: DBHandler.prototype.deleteUser
+2016-06-14 16:50:16,298 - info: DBHandler.prototype.executeQuery data=update user_master set status =  0 where userId='9'
+2016-06-14 16:50:16,722 - info: DBHandler.prototype.getUsers
+2016-06-14 16:50:16,726 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn

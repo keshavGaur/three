@@ -1,0 +1,40 @@
+.form-inline {
+    margin-bottom: 14px;
+}
+
+form input[type=text] {
+    width: 153px !important;
+}
+
+form input[type=number] {
+    width: 60px !important;
+}
+form .btn-outline{
+    margin-top: 14px;
+}
+
+input[type="submit"]:hover{
+    color: #FFFFFF;
+    background-color:#34B77B;
+}
+
+.table-responsive {
+    margin-top: 77px;
+}
+table  tr td .pull-right a{
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #B8DAC9;
+}
+
+@media (max-width: 780px) {
+    form input[type=text] {
+        width: 100% !important;
+    }
+
+    form input[type=number] {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,138 @@
+2017-02-16 11:44:42,461 - info: DBHandler.protoype.establishConnection
+2017-02-16 11:44:42,884 - info: DBHandler.prototype.constants
+2017-02-16 11:44:43,323 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 11:46:39,377 - info: DBHandler.prototype.login
+2017-02-16 11:46:39,400 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 11:47:01,052 - info: DBHandler.protoype.establishConnection
+2017-02-16 11:47:01,282 - info: DBHandler.prototype.constants
+2017-02-16 11:47:02,398 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 11:47:54,171 - info: DBHandler.protoype.establishConnection
+2017-02-16 11:47:54,317 - info: DBHandler.prototype.constants
+2017-02-16 11:47:54,832 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 11:48:09,166 - info: DBHandler.prototype.login
+2017-02-16 11:48:09,171 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 11:49:03,003 - info: DBHandler.prototype.getNutrientsFact
+2017-02-16 11:49:03,012 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-16 11:50:30,861 - info: DBHandler.protoype.establishConnection
+2017-02-16 11:50:30,980 - info: DBHandler.prototype.constants
+2017-02-16 11:50:31,465 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 11:50:54,951 - info: DBHandler.prototype.login
+2017-02-16 11:50:54,956 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 11:51:24,136 - info: DBHandler.prototype.getNutrientsFact
+2017-02-16 11:51:24,140 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-16 11:52:31,587 - info: DBHandler.protoype.establishConnection
+2017-02-16 11:52:31,687 - info: DBHandler.prototype.constants
+2017-02-16 11:52:32,118 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 11:53:52,321 - info: DBHandler.prototype.login
+2017-02-16 11:53:52,345 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 11:55:25,734 - info: DBHandler.prototype.getNutrientsFact
+2017-02-16 11:55:25,738 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1
+2017-02-16 12:06:51,962 - info: DBHandler.protoype.establishConnection
+2017-02-16 12:06:52,070 - info: DBHandler.prototype.constants
+2017-02-16 12:06:52,497 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 12:07:30,105 - info: DBHandler.protoype.establishConnection
+2017-02-16 12:07:30,248 - info: DBHandler.prototype.constants
+2017-02-16 12:07:30,713 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 12:11:52,100 - info: DBHandler.protoype.establishConnection
+2017-02-16 12:11:52,172 - info: DBHandler.prototype.constants
+2017-02-16 12:11:52,297 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 12:12:08,032 - info: DBHandler.prototype.login
+2017-02-16 12:12:08,082 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 12:24:30,817 - info: DBHandler.protoype.establishConnection
+2017-02-16 12:24:30,877 - info: DBHandler.prototype.constants
+2017-02-16 12:24:30,988 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 12:25:13,260 - info: DBHandler.prototype.doAddIngredientAndNutrients
+2017-02-16 12:25:13,403 - info: DBHandler.prototype.executeQueryTransaction data=insert into ingredient_master(ingredientName)  values('undefined')
+2017-02-16 12:25:13,403 - info: DBHandler.prototype.doAddNutrients
+2017-02-16 12:25:13,406 - info: DBHandler.prototype.executeQueryTransaction data=insert into raw_food_nutrition_trans(rawFoodId,nutrientId,nutritionValue) values 
+2017-02-16 12:25:13,407 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:395:16)
+    at DBHandler.doAddNutrients (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:173:10)
+    at DBHandler.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:110:17)
+    at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:401:50)
+    at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+    at Query.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:78:10)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23), localStack=at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:398:20)->at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)->at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:94:8)->at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)->at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017-02-16 12:25:13,407 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:395:16)
+    at DBHandler.doAddNutrients (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:173:10)
+    at DBHandler.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:110:17)
+    at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:401:50)
+    at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+    at Query.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:78:10)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23), localStack=at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:398:20)->at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)->at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:94:8)->at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)->at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017-02-16 12:25:13,407 - error: Error in DBHandler.prototype.executeQueryTransaction  stack=Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:83:18)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:201:25)
+    at DBHandler.executeQueryTransaction (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:395:16)
+    at DBHandler.doAddNutrients (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:173:10)
+    at DBHandler.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:110:17)
+    at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:401:50)
+    at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)
+    at Query._handleFinalResultPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:144:8)
+    at Query.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:78:10)
+    at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23), localStack=at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:398:20)->at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24)->at Query.ErrorPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:94:8)->at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)->at Parser.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Parser.js:73:12)->at Protocol.write (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:39:16)->at Socket.<anonymous> (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/Connection.js:96:28), data=ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017-02-16 12:25:13,544 - error: uncaughtException: Can't set headers after they are sent. date=Thu Feb 16 2017 12:25:13 GMT+0530 (IST), pid=4503, uid=1000, gid=1000, cwd=/home/tft/Desktop/study/nutrition_counter_admin, execPath=/home/tft/.nvm/versions/node/v6.9.2/bin/node, version=v6.9.2, argv=[/home/tft/.nvm/versions/node/v6.9.2/bin/node, /home/tft/Desktop/study/nutrition_counter_admin/app.js], rss=52256768, heapTotal=37769216, heapUsed=20993720, loadavg=[0.1845703125, 0.20654296875, 0.3427734375], uptime=3253, trace=[column=11, file=_http_outgoing.js, function=ServerResponse.OutgoingMessage.setHeader, line=356, method=OutgoingMessage.setHeader, native=false, column=10, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js, function=ServerResponse.header, line=718, method=header, native=false, column=12, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js, function=ServerResponse.send, line=163, method=send, native=false, column=17, file=/home/tft/Desktop/study/nutrition_counter_admin/routes/index.js, function=null, line=39, method=null, native=false, column=9, file=/home/tft/Desktop/study/nutrition_counter_admin/routes/ajax/doAddIngredient.js, function=error, line=16, method=null, native=false, column=41, file=/home/tft/Desktop/study/nutrition_counter_admin/db/database.js, function=Query._callback, line=184, method=_callback, native=false, column=24, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js, function=Query.Sequence.end, line=96, method=Sequence.end, native=false, column=8, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js, function=Query._handleFinalResultPacket, line=144, method=_handleFinalResultPacket, native=false, column=10, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js, function=Query.OkPacket, line=78, method=OkPacket, native=false, column=23, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js, function=Protocol._parsePacket, line=280, method=_parsePacket, native=false], stack=[Error: Can't set headers after they are sent.,     at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11),     at ServerResponse.header (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js:718:10),     at ServerResponse.send (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js:163:12),     at /home/tft/Desktop/study/nutrition_counter_admin/routes/index.js:39:17,     at error (/home/tft/Desktop/study/nutrition_counter_admin/routes/ajax/doAddIngredient.js:16:9),     at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:184:41),     at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24),     at Query._handleFinalResultPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:144:8),     at Query.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:78:10),     at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)]
+2017-02-16 12:25:13,545 - error: uncaughtException: Can't set headers after they are sent. date=Thu Feb 16 2017 12:25:13 GMT+0530 (IST), pid=4503, uid=1000, gid=1000, cwd=/home/tft/Desktop/study/nutrition_counter_admin, execPath=/home/tft/.nvm/versions/node/v6.9.2/bin/node, version=v6.9.2, argv=[/home/tft/.nvm/versions/node/v6.9.2/bin/node, /home/tft/Desktop/study/nutrition_counter_admin/app.js], rss=52256768, heapTotal=37769216, heapUsed=20993720, loadavg=[0.1845703125, 0.20654296875, 0.3427734375], uptime=3253, trace=[column=11, file=_http_outgoing.js, function=ServerResponse.OutgoingMessage.setHeader, line=356, method=OutgoingMessage.setHeader, native=false, column=10, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js, function=ServerResponse.header, line=718, method=header, native=false, column=12, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js, function=ServerResponse.send, line=163, method=send, native=false, column=17, file=/home/tft/Desktop/study/nutrition_counter_admin/routes/index.js, function=null, line=39, method=null, native=false, column=9, file=/home/tft/Desktop/study/nutrition_counter_admin/routes/ajax/doAddIngredient.js, function=error, line=16, method=null, native=false, column=41, file=/home/tft/Desktop/study/nutrition_counter_admin/db/database.js, function=Query._callback, line=184, method=_callback, native=false, column=24, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js, function=Query.Sequence.end, line=96, method=Sequence.end, native=false, column=8, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js, function=Query._handleFinalResultPacket, line=144, method=_handleFinalResultPacket, native=false, column=10, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js, function=Query.OkPacket, line=78, method=OkPacket, native=false, column=23, file=/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js, function=Protocol._parsePacket, line=280, method=_parsePacket, native=false], stack=[Error: Can't set headers after they are sent.,     at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11),     at ServerResponse.header (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js:718:10),     at ServerResponse.send (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/express/lib/response.js:163:12),     at /home/tft/Desktop/study/nutrition_counter_admin/routes/index.js:39:17,     at error (/home/tft/Desktop/study/nutrition_counter_admin/routes/ajax/doAddIngredient.js:16:9),     at Query._callback (/home/tft/Desktop/study/nutrition_counter_admin/db/database.js:184:41),     at Query.Sequence.end (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Sequence.js:96:24),     at Query._handleFinalResultPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:144:8),     at Query.OkPacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/sequences/Query.js:78:10),     at Protocol._parsePacket (/home/tft/Desktop/study/nutrition_counter_admin/node_modules/mysql/lib/protocol/Protocol.js:280:23)]
+2017-02-16 12:25:44,314 - info: DBHandler.prototype.login
+2017-02-16 12:25:44,330 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 12:25:53,231 - info: DBHandler.prototype.getIngredients
+2017-02-16 12:25:53,241 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-16 12:25:53,241 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-16 12:25:53,302 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-16 14:20:13,540 - info: DBHandler.protoype.establishConnection
+2017-02-16 14:20:13,917 - info: DBHandler.prototype.constants
+2017-02-16 14:20:15,178 - info: DBHandler.prototype.executeQuery data=select * from constants
+2017-02-16 14:20:45,802 - info: DBHandler.prototype.login
+2017-02-16 14:20:45,903 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'jaiswal.anshuman@tftus.com' and password = 'India@123' and roleId = 1
+2017-02-16 14:20:56,065 - info: DBHandler.prototype.getUsers
+2017-02-16 14:20:56,072 - info: DBHandler.prototype.executeQuery data=select userId,name,emailId,gender,address,phoneNo,certificate from user_master where roleId = 2 and status <> 0 order by createdOn
+2017-02-16 14:21:00,375 - info: DBHandler.prototype.getIngredients
+2017-02-16 14:21:00,430 - info: DBHandler.prototype.executeQuery data=select * from ingredient_master where status=1
+2017-02-16 14:21:00,430 - info: DBHandler.prototype.getIngredientNutrients
+2017-02-16 14:21:00,499 - info: DBHandler.prototype.executeQuery data=select innt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN ingredient_nutrition_trans  innt ON  nm.nutrientId = innt.nutrientId where nm.status = 1
+2017-02-16 14:21:19,936 - info: DBHandler.prototype.getRawFood
+2017-02-16 14:21:19,964 - info: DBHandler.prototype.executeQuery data=select * from raw_food_master where status=1
+2017-02-16 14:21:19,964 - info: DBHandler.prototype.getRawFoodNutrients
+2017-02-16 14:21:19,997 - info: DBHandler.prototype.executeQuery data=select rfnt.*,nm.nutrientName from nutrients_master nm  lEFT JOIN raw_food_nutrition_trans  rfnt ON  nm.nutrientId = rfnt.nutrientId where nm.status = 1
+2017-02-16 14:21:37,143 - info: DBHandler.prototype.getNutrientsFact
+2017-02-16 14:21:37,144 - info: DBHandler.prototype.executeQuery data=select nutrientId,nutrientName,lowValue,medValue,highValue from nutrients_master nm where nm.status=1

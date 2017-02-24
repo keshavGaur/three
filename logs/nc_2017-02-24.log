@@ -1,0 +1,13 @@
+2017-02-24 11:21:47,153 - info: DBHandler.protoype.establishConnection
+2017-02-24 11:21:47,418 - info: DBHandler.prototype.constants
+2017-02-24 11:21:47,655 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-24 11:22:09,231 - info: DBHandler.prototype.login
+2017-02-24 11:22:09,236 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-24 11:22:28,165 - info: DBHandler.prototype.getUsers
+2017-02-24 11:22:28,185 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-24 11:43:27,981 - info: DBHandler.prototype.getUsers
+2017-02-24 11:43:27,990 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-24 11:43:32,426 - info: DBHandler.prototype.deleteUser
+2017-02-24 11:43:32,556 - info: DBHandler.prototype.executeQuery data=update user_master set status = 2 where userId='7'
+2017-02-24 11:43:32,929 - info: DBHandler.prototype.getUsers
+2017-02-24 11:43:32,933 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
