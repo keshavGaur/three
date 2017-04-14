@@ -1,0 +1,111 @@
+2017-02-28 11:17:49,191 - info: DBHandler.protoype.establishConnection
+2017-02-28 11:17:50,036 - info: DBHandler.prototype.constants
+2017-02-28 11:17:50,882 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 11:22:03,901 - info: DBHandler.protoype.establishConnection
+2017-02-28 11:22:03,968 - info: DBHandler.prototype.constants
+2017-02-28 11:22:04,085 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 11:22:30,147 - info: DBHandler.prototype.login
+2017-02-28 11:22:30,500 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 11:22:34,537 - info: DBHandler.prototype.getUsers
+2017-02-28 11:22:34,555 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-28 11:22:36,686 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 11:22:36,732 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 11:22:54,958 - info: DBHandler.protoype.establishConnection
+2017-02-28 11:22:55,202 - info: DBHandler.prototype.constants
+2017-02-28 11:22:55,547 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 11:23:18,404 - info: DBHandler.prototype.login
+2017-02-28 11:23:18,422 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 11:23:20,130 - info: DBHandler.prototype.getUsers
+2017-02-28 11:23:20,134 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-28 11:23:21,606 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 11:23:39,791 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:41:49,320 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:41:49,556 - info: DBHandler.prototype.constants
+2017-02-28 12:41:50,093 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:42:04,363 - info: DBHandler.prototype.login
+2017-02-28 12:42:04,468 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:42:10,418 - info: DBHandler.prototype.getUsers
+2017-02-28 12:42:10,432 - info: DBHandler.prototype.executeQuery data=select userId,userName,emailId from user_master where roleId = 2 AND status = 1 order by userId
+2017-02-28 12:42:16,663 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:42:21,792 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:44:00,248 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:44:00,345 - info: DBHandler.prototype.constants
+2017-02-28 12:44:00,644 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:44:18,381 - info: DBHandler.prototype.login
+2017-02-28 12:44:18,395 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:44:20,527 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:44:23,601 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:48:19,354 - info: DBHandler.prototype.login
+2017-02-28 12:48:19,365 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:48:21,745 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:48:27,853 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:49:38,581 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:49:38,680 - info: DBHandler.prototype.constants
+2017-02-28 12:49:38,924 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:49:54,957 - info: DBHandler.prototype.login
+2017-02-28 12:49:54,960 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:49:56,908 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:50:01,006 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:50:42,711 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:50:42,786 - info: DBHandler.prototype.constants
+2017-02-28 12:50:42,986 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:50:55,154 - info: DBHandler.prototype.login
+2017-02-28 12:50:55,163 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:50:57,761 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:50:57,764 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:51:40,843 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:51:40,906 - info: DBHandler.prototype.constants
+2017-02-28 12:51:40,976 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:51:57,247 - info: DBHandler.prototype.login
+2017-02-28 12:51:57,266 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'ADMIN123' and roleId = 1
+2017-02-28 12:52:00,205 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:52:00,211 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:52:48,681 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:52:48,753 - info: DBHandler.prototype.constants
+2017-02-28 12:52:48,823 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:53:06,689 - info: DBHandler.prototype.login
+2017-02-28 12:53:06,722 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:53:08,962 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:53:08,976 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:53:34,799 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:53:34,878 - info: DBHandler.prototype.constants
+2017-02-28 12:53:34,976 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:53:45,899 - info: DBHandler.prototype.login
+2017-02-28 12:53:45,910 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:53:47,474 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:53:47,496 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:55:23,578 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:55:23,645 - info: DBHandler.prototype.constants
+2017-02-28 12:55:23,713 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:55:36,051 - info: DBHandler.prototype.login
+2017-02-28 12:55:36,055 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:55:37,529 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:55:37,531 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 12:56:02,573 - info: DBHandler.protoype.establishConnection
+2017-02-28 12:56:02,641 - info: DBHandler.prototype.constants
+2017-02-28 12:56:02,718 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 12:56:13,585 - info: DBHandler.prototype.login
+2017-02-28 12:56:13,589 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 12:56:15,321 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 12:56:15,325 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 13:55:19,144 - info: DBHandler.protoype.establishConnection
+2017-02-28 13:55:19,456 - info: DBHandler.prototype.constants
+2017-02-28 13:55:19,911 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 13:55:22,384 - info: DBHandler.protoype.establishConnection
+2017-02-28 13:55:22,439 - info: DBHandler.prototype.constants
+2017-02-28 13:55:22,518 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 13:55:40,762 - info: DBHandler.prototype.login
+2017-02-28 13:55:40,765 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 13:55:42,992 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 13:55:42,994 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 14:14:48,862 - info: DBHandler.prototype.getMedicineDescription
+2017-02-28 14:14:48,874 - info: DBHandler.prototype.executeQuery data=select * from medicine_master
+2017-02-28 16:07:55,279 - info: DBHandler.protoype.establishConnection
+2017-02-28 16:07:55,545 - info: DBHandler.prototype.constants
+2017-02-28 16:07:57,833 - info: DBHandler.prototype.executeQuery data=select * from constants;
+2017-02-28 16:08:18,065 - info: DBHandler.prototype.login
+2017-02-28 16:08:19,427 - info: DBHandler.prototype.executeQuery data=select userId ,emailId from user_master where emailId = 'keshav@gmail.com' and password = 'admin123' and roleId = 1
+2017-02-28 16:08:26,028 - info: DBHandler.prototype.getMedicinePrescription
+2017-02-28 16:08:26,085 - info: DBHandler.prototype.executeQuery data=select um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId
+2017-02-28 16:08:27,450 - info: DBHandler.prototype.getMedicineDescription
+2017-02-28 16:08:27,530 - info: DBHandler.prototype.executeQuery data=select * from medicine_master

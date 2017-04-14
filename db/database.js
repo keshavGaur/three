@@ -61,11 +61,33 @@ DBHandler.prototype.getMedicines = function(data,success,error){
         },error);
     });
 }
+//to add description of medicine
+DBHandler.prototype.addDescription = function(data,success,error){
+    Logger.info("DBHandler.prototype.addDescription");
+    var self = this;
+    var query = "select medicineName,description from medicine_master where status = 1";
+    this._pool.getConnection(function(err,connection){
+        self.executeQuery (err,connection,query,data,function(medicines){
+            self.getMedicineDescription([],function(descp){
+                success(medicines,descp);
+            },error)
+        },error);
+    });
+}
+
+DBHandler.prototype.getMedicinePrescription = function(data,success,error){
+    Logger.info("DBHandler.prototype.getMedicinePrescription");
+    var self = this;
+    var query = "select up.userId,um.userName,up.prescriptionName from user_master um RIGHT JOIN user_pres up ON um.userId = up.userId";
+    this._pool.getConnection(function(err,connection){
+        self.executeQuery (err,connection,query,data,success,error);
+    });
+}
 
 DBHandler.prototype.getMedicineDescription = function(data,success,error){
     Logger.info("DBHandler.prototype.getMedicineDescription");
     var self = this;
-    var query = "select description from medicine_master where medicineName ='"+data[0]+"'";
+    var query = "select * from medicine_master";
     this._pool.getConnection(function(err,connection){
         self.executeQuery (err,connection,query,data,success,error);
     });

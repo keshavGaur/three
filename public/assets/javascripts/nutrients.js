@@ -1,6 +1,3 @@
-/**
- * Created by kaur.jasmeen on 5/26/2016.
- */
 
 var nutrientId;
 $(".addNutrientFrm").submit(function(e){

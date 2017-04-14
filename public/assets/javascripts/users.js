@@ -1,6 +1,3 @@
-/**
- * Created by kaur.jasmeen on 6/14/2016.
- */
 
 function deleteUser(userId){
     callAjaxPost(location.origin+"/ajax/doDeleteUser",{userId:userId}, doDeleteUserCallback);

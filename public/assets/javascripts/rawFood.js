@@ -1,6 +1,3 @@
-/**
- * Created by kaur.jasmeen on 5/24/2016.
- */
 
 var rawFoodId;
 $(".addRawFoodFrm").submit(function(e){

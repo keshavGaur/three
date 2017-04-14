@@ -1,6 +1,4 @@
-/**
- * Created by kaur.jasmeen on 5/18/2016.
- */
+
 
 var ingredientId;
 $(".addIngredientFrm").submit(function(e){
@@ -10,7 +8,7 @@ $(".addIngredientFrm").submit(function(e){
     if(val.trim() == "Edit")
         callAjax(location.origin+"/ajax/doEditIngredient",{data:data,ingredientId:ingredientId}, doEditIngredientCallback);
     else
-        callAjax(location.origin+"/ajax/doAddIngredient",{data:data}, doAddIngredientCallback);
+        callAjax(location.origin+"/ajax/doAddPrescription",{data:data}, doAddIngredientCallback);
 });
 
 $(".editIngred").click(function(){
